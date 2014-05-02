@@ -8,6 +8,7 @@ Still missing a lot though. Stuff I want to add:
 - (remove) Bug wich causes you unable to move *all* tiles in one move
 - Fancy background
 - Proper highscore counter (current one is my highscore in real 2048)
+- End of game detection
 - (remove) Shitload of unkown bugs
 - Add tidy code
 
