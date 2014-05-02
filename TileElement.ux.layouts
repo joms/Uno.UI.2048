@@ -1,0 +1,11 @@
+<Layouts>
+  <Node RefId="this" PanX="166" PanY="52">
+    <Node RefId="Style1" X="261" Y="17" />
+    <Node RefId="ValueBlock" X="422" Y="-23" />
+    <Node RefId="TileBlock" X="272" Y="-49" />
+    <Node RefId="ClickAnimation" X="150" Y="-79" />
+    <Node RefId="Transform2D1" X="265" Y="-17" />
+    <Node RefId="LoadAnimation" X="97" Y="-52" />
+    <Node RefId="FadeInAnim" X="89" Y="-121" />
+  </Node>
+</Layouts>

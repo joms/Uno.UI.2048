@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project>
+  <References>
+    <PackageReference Name="Uno.Content.Utilities" />
+    <PackageReference Name="Uno.Designer" />
+    <PackageReference Name="Uno.Scenes" />
+    <PackageReference Name="Uno.Styling" />
+    <PackageReference Name="Uno.UI" />
+  </References>
+  <Files>
+    <UxFile Path="Scene1.ux" />
+    <UxFile Path="TileElement.ux" />
+    <SourceFile Path="GameManager.uno" />
+    <SourceFile Path="Grid.uno" />
+    <SourceFile Path="KeyInput.uno" />
+    <SourceFile Path="Scene1.ux.uno" />
+    <SourceFile Path="Tile.uno" />
+    <SourceFile Path="TileElement.ux.uno" />
+    <SourceFile Path="TimeRandom.uno" />
+    <SourceFile Path="Traverse.uno" />
+    <StartupFile Path="Scene1.ux" />
+  </Files>
+</Project>

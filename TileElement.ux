@@ -1,0 +1,49 @@
+<DockPanel xmlns:ux="http://schemas.outracks.com/ux" ux:ClassName="TileElement" Width="64" Height="64" HorizontalAlignment="Left" VerticalAlignment="Top" PointerTapped="Clicked" xmlns="Uno.Scenes, Uno.Styling, Uno.UI, Uno">
+  <StackPanel Margin="0, 0, 0, 0" Padding="0, 0, 0, 0" Color="0.6039216, 0.6039216, 0.6039216, 1" ux:Name="TileBlock">
+    <TextBlock Text="2048" TextAlignment="Center" Margin="0, 16, 0, 0" FontSize="25" ux:Name="ValueBlock" />
+  </StackPanel>
+  <Style ux:Name="Style1" ux:StaticRef="Uno.UI.DefaultStyle.Style" />
+  <Transform2D ux:Binding="Transform" Scale="1, 1" Rotation="0" ux:Name="Transform2D1" />
+  <Animation ux:AutoBind="false" Length="0.5" Loop="false" ux:Name="ClickAnimation" ux:Length="0.5" ux:IsRecordEnabled="false">
+    <ux:NodeTrack Name="Transform2D1">
+      <ux:VectorTrack Name="Scale">
+        <ux:FloatTrack Name="X">
+          <ux:Keyframe Time="0" Value="0.5" Easing="RampOut" />
+          <ux:Keyframe Time="0.5" Value="1" />
+        </ux:FloatTrack>
+        <ux:FloatTrack Name="Y">
+          <ux:Keyframe Time="0" Value="0.5" Easing="RampOut" />
+          <ux:Keyframe Time="0.5" Value="1" />
+        </ux:FloatTrack>
+      </ux:VectorTrack>
+    </ux:NodeTrack>
+  </Animation>
+  <Animation ux:AutoBind="false" Length="1" ux:Name="LoadAnimation" ux:Length="1" ux:IsRecordEnabled="false">
+    <ux:NodeTrack Name="Transform2D1">
+      <ux:VectorTrack Name="Scale">
+        <ux:FloatTrack Name="X">
+          <ux:Keyframe Time="0" Value="0" />
+          <ux:Keyframe Time="1" Value="1" />
+        </ux:FloatTrack>
+        <ux:FloatTrack Name="Y">
+          <ux:Keyframe Time="0" Value="0" />
+          <ux:Keyframe Time="1" Value="1" />
+        </ux:FloatTrack>
+      </ux:VectorTrack>
+      <ux:FloatTrack Name="Rotation">
+        <ux:Keyframe Time="0" Value="1.00999999046326" />
+        <ux:Keyframe Time="1" Value="1080" />
+      </ux:FloatTrack>
+    </ux:NodeTrack>
+  </Animation>
+  <Animation ux:AutoBind="false" Length="0.5" ux:Name="FadeInAnim" ux:Length="0.5" ux:IsRecordEnabled="false">
+    <ux:NodeTrack Name="TileBlock">
+      <ux:VectorTrack Name="Color">
+        <ux:FloatTrack Name="W">
+          <ux:Keyframe Time="0" Value="0.200000002980232" />
+          <ux:Keyframe Time="0.5" Value="1" />
+        </ux:FloatTrack>
+      </ux:VectorTrack>
+    </ux:NodeTrack>
+  </Animation>
+</DockPanel>

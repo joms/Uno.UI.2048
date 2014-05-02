@@ -1,0 +1,17 @@
+<Layouts>
+  <Node RefId="this" PanX="-168" PanY="107">
+    <Node RefId="GameWindow" X="285" Y="-58" />
+    <Node RefId="TitleText" X="594" Y="-135" />
+    <Node RefId="Titlebar" X="440" Y="-94" />
+    <Node RefId="GameCanvas" X="450" Y="13" />
+    <Node RefId="TileElement1" X="588" Y="29" />
+    <Node RefId="ScoresPanel" X="449" Y="-43" />
+    <Node RefId="ScoreText" X="753" Y="-84" />
+    <Node RefId="Score" X="753" Y="-57" />
+    <Node RefId="ScorePanel" X="585" Y="-59" />
+    <Node RefId="HighscorePanel" X="585" Y="-27" />
+    <Node RefId="HighscoreText" X="741" Y="-18" />
+    <Node RefId="Highscore" X="736" Y="11" />
+    <Node RefId="ByText" X="593" Y="-102" />
+  </Node>
+</Layouts>
