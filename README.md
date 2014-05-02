@@ -11,4 +11,4 @@ Still missing a lot though. Stuff I want to add:
 - (remove) Shitload of unkown bugs
 - Add tidy code
 
-Check out the original 2048 [http://gabrielecirulli.github.io/2048/](here(NSFW))
+Check out the original 2048 [here(NSFW)](http://gabrielecirulli.github.io/2048/)
