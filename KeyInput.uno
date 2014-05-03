@@ -60,6 +60,7 @@ namespace UI48
 			base.OnPointerUp(args);
 			
 			float2 end = args.PointCoord;
+			float2 dist = float2(start.X - end.X, start.Y - end.Y);
 			
 			if (Math.Abs(dist.X) > Math.Abs(dist.Y))
 			{
