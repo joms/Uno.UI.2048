@@ -45,6 +45,50 @@ namespace UI48
 					break;
 			}
 	    }
+		
+		float2 start;
+
+		protected override void OnPointerDown(Uno.Scenes.PointerDownArgs args)
+		{
+			base.OnPointerDown(args);
+			
+			start = args.PointCoord;
+		}
+
+		protected override void OnPointerUp(Uno.Scenes.PointerUpArgs args)
+		{
+			base.OnPointerUp(args);
+			
+			float2 end = args.PointCoord;
+			
+			if (Math.Abs(dist.X) > Math.Abs(dist.Y))
+			{
+				// Horizontal
+				if (Math.Abs(start.X - end.X) > 50) // It is a real swipe
+					if (start.X > end.X)
+					{
+						_gm.Move(3); // Left
+						Refresh();
+					} else {
+						_gm.Move(1); // Right
+						Refresh();
+					}
+			} else {
+				// Vertical
+				if (Math.Abs(start.Y - end.Y) > 50) // It is a real swipe
+					if (start.Y > end.Y)
+					{
+						_gm.Move(0); // Up
+						Refresh();
+					} else {
+						_gm.Move(2); // Down
+						Refresh();
+					}
+			}
+			
+		}
+
+
 
 		public void Refresh()
 		{
@@ -71,7 +115,7 @@ namespace UI48
 							Tile = t
 						};
 						_gc.Children.Add(f);
-						
+
 						if (t.Merged == true)
 						{
 							f.Merge();
