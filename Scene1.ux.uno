@@ -15,7 +15,7 @@ public partial class Scene1
 
 		gm = new GameManager();
 		k = new KeyInput(gm, GameCanvas, Score);
-		
+
 		k.Refresh();
 	}
 

@@ -1,17 +1,19 @@
 <Layouts>
-  <Node RefId="this" PanX="-168" PanY="107">
-    <Node RefId="GameWindow" X="285" Y="-58" />
-    <Node RefId="TitleText" X="594" Y="-135" />
-    <Node RefId="Titlebar" X="440" Y="-94" />
-    <Node RefId="GameCanvas" X="450" Y="13" />
-    <Node RefId="TileElement1" X="588" Y="29" />
+  <Node RefId="this" PanX="35.1104438673534" PanY="95.0281740036835" RootX="161.272556390977" RootY="-106.052631578947" Scale="1.12">
+    <Node RefId="Camera1" X="300.038461538462" Y="-18.4807692307692" />
+    <Node RefId="Style1" X="300.038461538461" Y="4.44230769230768" />
+    <Node RefId="GameWindow" X="300" Y="-43" />
+    <Node RefId="TitleText" X="585.630434782609" Y="-115.612244897959" />
+    <Node RefId="Titlebar" X="449" Y="-72" />
+    <Node RefId="GameCanvas" X="449" Y="-16" />
+    <Node RefId="TileElement1" X="585.020408163265" Y="2.51020408163265" />
     <Node RefId="ScoresPanel" X="449" Y="-43" />
-    <Node RefId="ScoreText" X="753" Y="-84" />
-    <Node RefId="Score" X="753" Y="-57" />
+    <Node RefId="ScoreText" X="734.428571428571" Y="-83.25" />
+    <Node RefId="Score" X="734" Y="-59" />
     <Node RefId="ScorePanel" X="585" Y="-59" />
     <Node RefId="HighscorePanel" X="585" Y="-27" />
-    <Node RefId="HighscoreText" X="741" Y="-18" />
-    <Node RefId="Highscore" X="736" Y="11" />
-    <Node RefId="ByText" X="593" Y="-102" />
+    <Node RefId="HighscoreText" X="732.935483870968" Y="-26.8709677419355" />
+    <Node RefId="Highscore" X="732.75" Y="-2.53571428571422" />
+    <Node RefId="ByText" X="585" Y="-87.0408163265306" />
   </Node>
 </Layouts>
