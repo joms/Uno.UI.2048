@@ -3,6 +3,8 @@ Uno.UI.2048
 
 The classic 2048 recreated in Uno.UI
 
+Check it out here: http://joms.github.io/Uno.UI.2048/
+
 Still missing a lot though. Stuff I want to add:
 - Fancy animations
 - (remove) Bug wich causes you unable to move *all* tiles in one move
