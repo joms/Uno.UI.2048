@@ -11,6 +11,6 @@ Still missing a lot though. Stuff I want to add:
 - End of game detection and restart functionality
 - (remove) Shitload of unkown bugs
 - Add tidy code
-- Mobile functionality (swiping)
+- ~~Mobile functionality (swiping)~~
 
 Check out the original 2048 [here(NSFW)](http://gabrielecirulli.github.io/2048/)
