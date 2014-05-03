@@ -17,4 +17,4 @@ Still missing a lot though. Stuff I want to add:
 
 \* Waiting for functionality in Uno
 
-Check out the original 2048 [here(NSFW)](http://gabrielecirulli.github.io/2048/)
+Check out the original 2048 [here **(NSFW)**](http://gabrielecirulli.github.io/2048/)
