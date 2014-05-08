@@ -1,5 +1,5 @@
 <Layouts>
-  <Node RefId="this" PanX="35.1104438673534" PanY="95.0281740036835" RootX="161.272556390977" RootY="-106.052631578947" Scale="1.12">
+  <Node RefId="this" PanX="-10.8895561326466" PanY="172.028174003683" RootX="161.272556390977" RootY="-106.052631578947">
     <Node RefId="Camera1" X="300.038461538462" Y="-18.4807692307692" />
     <Node RefId="Style1" X="300.038461538461" Y="4.44230769230768" />
     <Node RefId="GameWindow" X="300" Y="-43" />

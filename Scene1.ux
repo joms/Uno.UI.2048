@@ -3,7 +3,7 @@
     <Transform Position="100, 100, 100" RotationDegrees="325, 45, 120" />
     <Frustum FovDegrees="45" Aspect="2.4" ZNear="10" ZFar="5000" />
   </Entity>
-  <StackPanel Width="331" Height="458" IsHitable="true" Color="0.01568628, 0.4, 0.5803922, 1" ux:Name="GameWindow">
+  <StackPanel Width="331" HorizontalAlignment="Center" VerticalAlignment="Center" IsHitable="true" Color="0.01568628, 0.4, 0.5803922, 1" ux:Name="GameWindow">
     <StackPanel Margin="5, 5, 5, 0" Color="0, 0, 0, 0.1960784" ux:Name="Titlebar">
       <TextBlock Text="Uno.UI.2048" TextAlignment="Center" FontSize="50" ux:Name="TitleText" />
       <TextBlock Text="By Jo Emil Holen aka JoMs of Indigo" TextAlignment="Center" Margin="0, -12, 0, 1" FontSize="12" ux:Name="ByText" />
